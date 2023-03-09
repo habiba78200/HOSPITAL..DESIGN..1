@@ -1,0 +1,646 @@
+ .shahd{
+    width:700px;
+    height: 70px;
+    border:none;
+    margin: auto;
+    text-align: center;
+}
+.ha{
+    font-size: 70px;
+} 
+ .sara{
+  width: 100%;  
+  height: 40px;
+  background-color:gray;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  left: 0px;
+} 
+ ul{
+   list-style-type: none;
+   float: right;
+   margin-right: 150px;
+}
+.li1{
+  display: inline;  
+  margin-left: 50px;
+}
+.li1 a{
+  color: rgb(250, 248, 248);
+} 
+ .img{
+width: 100px;
+height: 50px;
+border-radius: 7px;
+float: left;
+margin-left: 100px;
+}
+ .im1{
+    margin-left: 300px;
+    width: 1000px;
+    height: 400px;
+ } 
+button{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(52, 179, 218);
+    color: rgb(9, 9, 9); 
+      /* solid - dotted - dashed ;  */
+     border-radius: 10px;
+border: blue;
+}
+.h1{
+text-align: center;
+font-size: 60px;
+}
+.c2{
+    font-size: 50px;
+text-align: center;
+}
+.c4{
+    text-align: center;
+}
+.c4:hover{
+    color: red;
+}
+.c5{
+    font-size: 27px;
+}
+.u1{
+    color: rgb(255, 38, 0); 
+     font-size: 50px;
+} .div7 , .div9 , .div11 , .div13 , .div15 , .div17 , .div19 ,.div21 , .div23 , .div25{
+    width: 550px;
+    height: 290px;
+    border: 1px solid rgb(9, 9, 9);
+    text-align: center;
+    border-radius: 4px;
+    float: left; 
+ }
+ .div8 , .div10 , .div12 , .div14 , .div16 , .div18 , .div20 ,.div22 , .div24 , .div26{
+    width: 650px;
+    height: 290px;
+    border: 1px solid black;
+    border-radius: 4px;
+    float: right;
+}
+.m1{
+    font-size:25px;
+    text-align: left;
+}
+.m2{
+    font-size: 22px;
+    text-align: left;
+}
+.a1{
+    width: 310px; 
+    height: 520px;
+    border: none;
+     float: left; 
+     margin-left: 300px;
+    text-align:left;
+} 
+.a2{
+    width: 200px; 
+    height: 200px;
+    border: none;
+     float: left; 
+    text-align:left;
+    margin-left: 150px;
+}
+.a3{
+    width: 290px; 
+     height: 600px; 
+    border: none;
+     float: right; 
+    text-align: left; 
+   margin-right: 200px;
+} 
+.mony1{
+    font-size: 27px;
+    text-align: left;
+}
+.amany{
+    width: 470px;
+    height: 400px;
+    border: 1px solid black;
+    text-align: center;  
+    font-size: 15px;
+    border-radius: 1px;  
+    outline: 3px solid 5;
+ /*    margin:auto; */
+}  
+/*   //////////////////////////////////////////////////////////////////////////////////////////////////   */
+.offer{
+    width: 100vw;
+    height: 100vh; 
+}
+.offer-container{
+    width: 95%;
+    margin: auto;
+    margin-top: 60px;
+}
+.offer-title{
+    width: 500px;
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+    }
+    .offer-titel-1{
+        width: 60px;
+        height: 5px;
+        background-color: blue;
+        border: none;
+        margin: auto;
+    }
+    .offer-div1{
+        width: 320px;
+        height: 200px;
+        border: 1px solid black;
+        float: left;
+        margin-left: 30px;
+        position: relative;
+    }
+     .offer-div2 {
+        width: 320px;
+        height: 200px;
+        border: 1px solid black;
+        float: left;
+        position: relative;
+        margin: 0px 2%;
+    
+    }
+    .offer-div3{
+        width: 320px;
+        height: 200px;
+        border: 1px solid black;
+        float: left;
+        position: relative;
+    }
+    .offer-div4{
+        width: 320px;
+        height: 200px;
+        border: 1px solid black;
+        float: left;
+        position: relative;
+        margin-top: 30px;
+        margin: 0px 2%;
+
+    }
+    .offer-div5{
+        width: 320px;
+        height: 200px;
+        border: 1px solid black;
+        float: left;
+        position: relative;
+        margin: 0px 2%;
+        margin-top: 30px;
+    }
+    .offer-div6{
+        width: 320px;
+        height: 200px;
+        border: 1px solid black;
+        float: left;
+        position: relative;
+        margin-top: 30px;
+    }  
+    .offer-div7{
+        color: blue;
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .offer-title2{
+        text-align: center;
+        font-size: 30px;
+        margin-top: -40px;
+    }
+    .offer-p{
+        color: rgb(92, 92, 92);
+        text-align: center;
+        font-size: 25px;
+        margin: 25px;
+    }
+    .offer-div1:after , .offer-div2:after , .offer-div3:after , .offer-div4:after  , .offer-div5:after  , .offer-div6:after {
+        content:"";
+        position: absolute;
+        width: 0;
+        height: 100%;
+    
+         top: 0;
+        left: 0;
+        background-color: black;
+        opacity: 0;
+        transition: 0.8s;
+    }
+    .offer-div1:hover::after , .offer-div2:hover::after , .offer-div3:hover::after , .offer-div4:hover::after , .offer-div5:hover::after , .offer-div6:hover::after{
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        transition: 1s;
+        z-index: -1;
+    }
+    .offer-div1:hover , .offer-div2:hover , .offer-div3:hover , .offer-div4:hover , .offer-div5:hover , .offer-div6:hover{
+        color: white;
+    }
+    .offer-div1:hover .offer-p , .offer-div2:hover .offer-p , .offer-div3:hover .offer-p , .offer-div4:hover .offer-p , .offer-div5:hover .offer-p , .offer-div6:hover .offer-p{
+        color:black;
+}
+.div1{
+    width: 100vw;
+    height: 60vh;
+    background-image: url(../images/1-2.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.div2-container{
+    width: 70%;
+    margin: auto;
+    padding-top: 100px;
+    border: none;
+} 
+.div3{
+        width: 220px;
+        height: 150px;
+        text-align: center;
+        font-size: 25px;
+        padding-top: 50px;
+        float: left;
+        color: #fff;
+        border: none;
+    
+     }
+     .div4 , .div5{
+        width: 220px;
+        height: 150px;
+        text-align: center;
+        font-size: 25px;
+        padding-top: 50px;
+        float: left;
+        margin-left: 60px;
+        color: #fff;
+        border: none;
+     }
+     .div6{
+        width: 220px;
+        height: 150px;
+        text-align: center;
+        font-size: 25px;
+        padding-top: 50px;
+        float: right;
+        color: #fff;
+        border: none;
+     } 
+    .icon{
+        color: blue;
+        margin-bottom: 30px;
+        font-size: 30px;
+}
+.container{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}  
+ .team-content{
+    overflow: auto;
+ }
+ .our-team{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.our-team1{
+    width: 60px;
+    height: 5px;
+    background-color: blue;
+    border: none;
+    margin: auto;
+} 
+.team-item {
+    float: left;
+    width: 24%;
+    margin-left: 10px;
+    background-color: rgb(220, 219, 219);
+    padding: 5px 16px;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    
+}
+.team-img{
+    margin: auto;
+    position: relative;
+}
+.team-img img{
+    width: 95%;
+}  
+.team-ovarlay{
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-color:rgba(93, 103, 121, 0.5);
+ visibility: hidden;
+opacity: 0; 
+}
+.team-item:hover .team-ovarlay{
+    visibility: visible;
+    opacity: 1;
+}
+.team-ovarlay a{
+    display: block;
+    width: 40px;
+    height:40px;
+    margin-left: auto;
+    color: #fff;
+    font-size: 20px;
+    background-color: rgb(53, 149, 246);
+}
+.team-ovarlay a i{
+    line-height: 40px;
+}
+.team-info-title1{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.team-info-text{
+    text-transform: capitalize;
+    color:blue;
+}
+.team-item:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    right: 0;
+    background-color: rgb(62, 56, 56);
+    opacity: 0;
+}
+.team-item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+}
+.team-item:hover .team-info-title1{
+    color:red
+}
+/* ////////////////////////////////////////////////////////////// */
+.im-div1{
+    height: 55vh;
+    background-image: url(../images/احمد\ عبدالله.jpg);
+     background-size: cover; 
+    background-attachment: fixed; 
+}
+.ddd{
+    margin-top: 80px;
+}
+
+.im-container{
+    margin: auto;
+    padding-top: 50px;
+}
+.our-mony{
+    text-align: center;
+}
+.im-div2{
+width: 450px;
+height: 300px;
+float: left;
+}
+.im-div11{
+    width: 450px;
+    height: 300px;
+    float: left;
+    margin-left: 130px;
+    } 
+.im-div3{
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/دكتور\ زين.jpg);
+    background-size: cover;
+    border-radius: 50px;
+    float: left; 
+} 
+.im-div7{
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/دكتور\ مراد.jpg);
+    background-size: cover;
+    border-radius: 50px;
+    float: left; 
+} 
+.im-div6{
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/دكتور\ 33.png);
+    background-size: cover;
+    border-radius: 50px;
+    float: left; 
+} 
+.im-div4 , .im-div8{
+    width: 210px;
+    height: 120px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: blue;
+}
+.div-h4 , .div-h8{
+    font-size: 27px;
+}
+.im-div5 , .im-div9{
+        width: 490px;
+        height: 100px;
+        float: left;
+        margin-left: 30px;
+        margin-top: 10px;
+        font-size: 20px;
+}
+/* ////////////////////////////////////////////////////////////////////////// */
+
+.work-contanire1{
+    width: 70%;
+    margin: auto;
+}
+.work-conteant-title{
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+}
+.work-conteant-line{
+    width: 60px;
+    height: 5px;
+    background-color: blue;
+    border: none;
+    margin: auto;
+}
+.work-overlay a i {
+    line-height: 50px;
+}
+.div-icons .sha{
+    width: 50px;
+    height: 50px;
+    margin-left: 90px;
+    cursor: pointer;
+    background-color: rgb(55, 145, 247);
+    float: left;
+}
+ .div-icons .shah{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: rgb(55, 145, 247);
+    float: left;
+}  
+.div-icons .sha , .div-icons .shah{
+color: #fff;
+font-size: 25px;
+}
+.work-item-1{
+    float: left;
+    width: 28%;
+    height: 250px;
+    padding: 16px 0px;
+    background-color: rgb(194, 191, 191);
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+.am{
+    margin: 0px 7%;
+}
+.work-content-1{
+    overflow: auto;
+}
+.work-image-1{
+width: 100%;
+margin: auto;
+position: relative;
+}
+.work-image-1 img{
+    width: 100%;
+}
+.work-overlay{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    bottom: 0;
+    right: 0;
+    transform: translate(-50% , -50% );
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+}
+.work-item-1:hover .work-overlay{
+    visibility: visible;
+    opacity: 1;
+}
+.work-item-1:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+    transform: .7s;
+}
+.work-item-1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+    transition: 1s;
+}
+.work-item-1:hover .icons{
+    transition: 2s;
+}
+.work-item-1:hover .category{
+    color: red;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.work-item-1:hover .lorem{
+    color: #fff;
+    transition: 1.5s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 27px;
+}
+.ccc{
+    margin-top: 400px;
+}
+.how{
+  margin-top: 15px;
+  width: 100vw;
+  height: 45vh;
+  background-color: rgb(55, 33, 128); 
+}
+.how-img{
+  width: 200px;
+  height: 100px;
+  padding-top: 30px;
+  margin: auto;
+}
+.how-div1{
+  width: 380px;
+  height: 70px;
+  padding-top: 30px;
+  margin: auto;
+  font-size: 25px;
+  
+}
+.how-div2{
+  width: 50px;
+  height: 40px;
+  padding: auto;
+  margin-left: 10px;
+  border-radius: 25px;
+  text-align: center;
+  cursor: pointer;
+  background-color: antiquewhite;
+  float: left;
+}   
+.how-div2:hover{
+  background-color: white;
+}
+.how-div2 .sara{
+  color: #1ae2d8;
+  font-size: 20px;
+  margin-top: 10px; 
+}
+.how-p{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: wheat;
+} 
+td{
+    text-align: center;
+}
+.our-amany{
+    text-align: center;
+    font-size: 30px;
+}
+.our-aaa{
+    width: 60px;
+    height: 3px;
+    background-color: blue;
+    border: none;
+    margin:auto ;
+    margin-top: -30px;
+}
+
+.hab{
+    margin-top: 8px;
+}

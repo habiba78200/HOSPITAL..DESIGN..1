@@ -1,0 +1,551 @@
+ <html>
+    <head>
+    <link rel="stylesheet"  href="css/style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css"/>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <img src="images/الجوى التخصصى.jpg" style="width: 80px; height: 30px; padding-right: 20px;">
+            <a class="navbar-brand text-light" href="#" >Cairo Specialized Hospital</a>
+            <div style="width: 2px; height: 50px; background-color: aliceblue;"></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link text-light" href="#" style="margin-left: 100px;">الصفحه الرئيسيه <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#">الاطباء</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#">التمريض</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#">الاداره</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#">الاحصائيات</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#N">العيادات</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-light " href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                  الاقسام
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item text-dark" href="قسم باطنه.html">قسم باطنه</a>
+                    <a class="dropdown-item text-dark" href="قسم عظام.html">قسم عظام</a>
+                    <a class="dropdown-item text-dark" href="اشعه.html">قسم اشعه</a>
+                    <a class="dropdown-item text-dark" href="قسم نسا و توليد.html">قسم نسا و توليد</a>
+                    <a class="dropdown-item text-dark" href="قسم القلب.html">قسم جراحه قلب</a>
+                    <a class="dropdown-item text-dark" href="قسم اطفال.html">قسم اطفال</a> 
+                    <a class="dropdown-item text-dark" href="جلديه.html">قسم جلديه</a>
+                    <a class="dropdown-item text-dark" href="تحاليل.html">قسم تحاليل</a>
+                    <a class="dropdown-item text-dark" href="قسم جراحه اسنان.html">قسم اسنان</a>
+                    <a class="dropdown-item text-dark" href="مخ و اعصاب.html">قسم مخ و اعصاب</a>
+                    <a class="dropdown-item text-dark" href="انف و اذن.html">قسم انف و اذن</a>
+                    <a class="dropdown-item text-dark" href="طب جراحه.html">قسم جراحه</a>
+                    <div class="dropdown-divider"></div>
+                  </div>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              </form>
+            </div>
+            <li class="nav-item ml-3" >
+              <button type="button" class="btn btn-outline-light btn book"  data-toggle="modal" data-target="#staticBackdrop">
+                Enter Your Data
+              </button>
+              <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content bg-light" style="padding: 15px;color: #238d00;">
+                    <div class="modal-header" style="padding: 10px 0px;">
+                      <h5 class="modal-title" id="staticBackdropLabel">Enter Your Data</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <form>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputEmail4"></label>
+                          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputPassword4"></label>
+                          <input type="password" class="form-control" id="inputPassword4" placeholder="Your Name">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputAddress"></label>
+                        <input type="tel" class="form-control" id="inputAddress" placeholder="Your Phone">
+                      </div>
+                      <div class="form-group">
+                        <label for="inputAddress2"></label>
+                        <input type="number" class="form-control" id="inputAddress2" placeholder="#of people">
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputEmail4"></label>
+                          <!-- <input type="date" class="form-control" id="inputEmail4" placeholder="Date"> -->
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputPassword4"></label>
+                          <input type="time" class="form-control" id="inputPassword4" placeholder="Time">
+                        </div>
+                      <button type="submit" class="btn book" data-dismiss="modal" style="margin-top: 10px;">Enter</button>
+                    </form>
+          </div> </nav>
+          </nav>
+          </nav>
+          
+          <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+           <main style="display: flex; justify-content: center; ">
+            <div style="width: 1200px;" id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="8"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="9"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="10"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="11"></li>
+              </ol> 
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/اطفال 1.jpeg" width="1400px" height="600px" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-light">Espresso</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/اخصائى تغذيه 2.jpg"width="1400px" height="600px" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Coffee Americano</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/عظام 1.jpeg"width="1400px" height="1400px" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Cappuccino</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/تحاليل 2.webp"width="1400px" height="1400px" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Coffee Mocha </h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/جراحه 1.jpeg"width="1400px" height="600px" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Coffee Mocha </h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/اخصائى قلب 1.jpeg"width="1400px" height="600px" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Coffee Mocha </h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/انف و اذن 2.jpeg"width="1400px" height="600px" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Coffee Mocha </h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/باطنه 1.jpg"width="1400px" height="600px" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Coffee Mocha </h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/باطنه.jpeg"width="1400px" height="600px" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Coffee Mocha </h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/جلديه 1.jpeg"width="1400px" height="600px" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Coffee Mocha </h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/جلديه 2.jpg"width="1400px" height="600px" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Coffee Mocha </h5>
+                    </div>
+                  </div>
+                <div class="carousel-item">
+                  <img src="images/نسا و توليد 1.jpg"width="1400px" height="600px" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Coffee Latte </h5>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </button>
+            </div>
+          </main>
+          <div id="N" class="offer">
+            <div class="offer-title"><h2 class="offer-title3">عيادات المستشفي</h2></div> <!-- /offer-title -->
+              <div class="offer-titel-1"></div> <!-- /offer-title-1 -->
+              <div class="offer-container">
+                <div class="offer-div1">
+                  <div class="offer-div7"><i class="fas fa-tools"></i></div> <!-- /offer-div4 -->
+                <a href="قسم جراحه اسنان.html"><h2 class="offer-title2">قسم الاسنان </h2></a>
+                               <p class="offer-p">السبت والاحد والاثلاثاءوالاربعاء من 1م الي 5م</p>
+                </div> <!-- /offer-div1 -->
+                <div class="offer-div2 off">
+                  <div class="offer-div7"> <i class="fas fa-unlink"></i></div> <!-- /offer-div4 -->
+                  <a href="قسم القلب.html"><h2 class="offer-title2">قسم القلب</h2></a>
+                               <p class="offer-p">الاحد والاتنين والثلاثاء وااربعاء من 2م الي 7م</p>
+                </div> <!-- /offer-div2 -->
+                <div class="offer-div3">
+                  <div class="offer-div7"><i class="fas fa-pen-fancy"></i></div> <!-- /offer-div4 -->
+                  <a href="قسم باطنه.html"><h2 class="offer-title2">قسم الباطنه</h2></a>
+                               <p class="offer-p">السبت والثلاثاء والاربعاء من 9ص الي 5م</p>
+                </div> <!-- /offer-div3 -->
+                <div class="offer-div4">
+                  <div class="offer-div7"><i class="fab fa-hubspot"></i></div> <!-- /offer-div4 -->
+                  <a href="قسم اطفال.html"><h2 class="offer-title2">قسم الاطفال</h2></a>
+                               <p class="offer-p">الاثنين والاربعاء والخميس من 10ص الي 4م</p>
+                </div> <!-- /offer-div4 -->
+                <div class="offer-div5">
+                  <div class="offer-div7"><i class="far fa-square"></i></div> <!-- /offer-div4 -->
+                  <a href="قسم نسا و توليد.html"><h2 class="offer-title2">قسم النسا والتوليد</h2></a>
+                               <p class="offer-p">التلات والاربعاء والخميس من 12م الي 3م </p>
+                </div> <!-- /offer-div5 -->
+                <div class="offer-div6">
+                  <div class="offer-div7"> <i class="fas fa-yin-yang"></i></div> <!-- /offer-div4 -->
+                  <a href="مخ و اعصاب.html"><h2 class="offer-title2">قسم المخ والاعصاب</h2></a>
+                               <p class="offer-p">السبت والاحد والاتنين من 1م الي 5م</p>
+                </div> <!-- /offer-div6 -->
+                <div class="offer-div5">
+                  <div class="offer-div7"><i class="far fa-square"></i></div> <!-- /offer-div4 -->
+                  <a href="انف و اذن.html"><h2 class="offer-title2">قسم انف و اذن</h2></a>
+                               <p class="offer-p">سبت واتنين واربع من 7ص الي 2 م</p>
+                </div> <!-- /offer-div5 -->
+                <div class="offer-div6">
+                  <div class="offer-div7"> <i class="fas fa-yin-yang"></i></div> <!-- /offer-div4 -->
+                  <a href="قسم عظام.html"><h2 class="offer-title2">قسم العظام</h2></a>
+                               <p class="offer-p">حد وتلات وخميس من8 ص الي 12م</p>
+                </div> <!-- /offer-div6 -->
+              </div> <!-- /offer-container-->
+          </div> <!-- /offer -->
+            <!--       /////////////////////////////////////////////////////////////////////////////////      -->
+            <div class="div1">
+              <div class="div2-container"> 
+                <div class="div3">
+                <a href="جدول عدد الدكاتره.html"><i class="far fa-square icon"></i></a>
+                  <h2 class="co1">100</h2>
+                  <p class="co-p">عدد الاطباء</p>
+                </div> <!-- /div3 -->
+                <div class="div4">
+                <a href="جدول عدد الحالات الداخله.html"><i class="far fa-square icon"></i></a>
+                  <h2 class="co1">100</h2>
+                  <p class="co-p">اجمالى الحالات الداخله</p>
+                </div> <!-- /div4 -->
+                <div class="div5">
+                 <a href="جدول عدد الحالات الخارجه.html"><i class="far fa-square icon"></i></a>
+                  <h2 class="co1">100</h2>
+                  <p class="co-p">اجمالى الحالات الخارجه</p>
+                </div> <!-- /div5 -->
+                <div class="div6">
+                <a href="جدول عدد الممرضات.html"><i class="far fa-square icon"></i></a>
+                  <h2 class="co1">100</h2>
+                  <p class="co-p">عدد الممرضات</p>
+                  
+                </div> <!-- /div6 -->
+              </div> <!-- /div2-container -->
+            </div>
+  <!-- //////////////////////////////////////////////////////////////////////////////////// -->
+  <div class="container">
+    <div class="our-team"><h2>قسم الاطباء</h2></div> 
+    <div class="our-team1"></div>
+    <div class="team-content">
+<div class="team-item">
+<div class="team-img">
+<img src="images/دكتور 44.jpg" alt="boy" width="180px" height="200px">
+<div class="team-ovarlay">
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+         <a href="#"><i class="fab fa-twitter-square"></i></a>
+         <a href="#"><i class="fab fa-linkedin"></i></a>
+</div> <!--/team-ovarlay  -->
+ </div> <!--/team-img  -->
+ <div class="team-info">
+<h2 class="team-info-title1">دكتور احمد عبدالله</h2>
+<span class="team-info-text">تخصص قسم اسنان</span>
+ </div> <!--/team-info  -->
+  </div> <!--/team-item  -->
+       <div class="team-item">
+        <div class="team-img">
+        <img src="images/احمد عبدالله.jpg" alt="boy" width="180px" height="200px">
+        <div class="team-ovarlay">
+         <a href="#"><i class="fab fa-facebook-square"></i></a>
+         <a href="#"><i class="fab fa-twitter-square"></i></a>
+         <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div> <!--/team-ovarlay  -->
+          </div> <!--/team-img  -->
+          <div class="team-info">
+         <h2 class="team-info-title1">دكتور مراد الالفي</h2>
+         <span class="team-info-text">تخصص عظام وروماتيزم</span>
+          </div> <!--/team-info  -->
+           </div> <!--/team-item  -->
+           <div class="team-item">
+            <div class="team-img">
+            <img src="images/دكتور مراد.jpg" alt="boy" width="180px" height="200px">
+            <div class="team-ovarlay">
+             <a href="#"><i class="fab fa-facebook-square"></i></a>
+             <a href="#"><i class="fab fa-twitter-square"></i></a>
+             <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div> <!--/team-ovarlay  -->
+              </div> <!--/team-img  -->
+            <div class="team-info">
+            <h2 class="team-info-title1">دكتور زين الجارحي</h2>
+            <span class="team-info-text">تخصص مخ واعصاب </span>
+           </div> <!--/team-info  -->
+        </div> <!--/team-item  -->
+        <div class="team-item">
+          <div class="team-img">
+          <img src="images/دكتور زين.jpg" alt="boy" width="180px" height="200px">
+          <div class="team-ovarlay">
+           <a href="#"><i class="fab fa-facebook-square"></i></a>
+           <a href="#"><i class="fab fa-twitter-square"></i></a>
+           <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div> <!--/team-ovarlay  -->
+            </div> <!--/team-img  -->
+          <div class="team-info">
+          <h2 class="team-info-title1">دكتور صلاح الاسيوي</h2>
+          <span class="team-info-text">تخصص جراحه القلب</span>
+         </div> <!--/team-info  -->
+      </div> <!--/team-item  -->
+      <div class="team-item">
+        <div class="team-img">
+        <img src="images/دكتور صلاح.jpg" alt="boy" width="180px" height="200px">
+        <div class="team-ovarlay">
+         <a href="#"><i class="fab fa-facebook-square"></i></a>
+         <a href="#"><i class="fab fa-twitter-square"></i></a>
+         <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div> <!--/team-ovarlay  -->
+          </div> <!--/team-img  -->
+        <div class="team-info">
+        <h2 class="team-info-title1">دكتور اسلام محمد</h2>
+        <span class="team-info-text">تخصص باطنه</span>
+       </div> <!--/team-info  -->
+    </div> <!--/team-item  -->
+    <div class="team-item">
+      <div class="team-img">
+      <img src="images/دكتور 11.jpg" alt="boy" width="180px" height="200px">
+      <div class="team-ovarlay">
+       <a href="#"><i class="fab fa-facebook-square"></i></a>
+       <a href="#"><i class="fab fa-twitter-square"></i></a>
+       <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div> <!--/team-ovarlay  -->
+        </div> <!--/team-img  -->
+      <div class="team-info">
+      <h2 class="team-info-title1">دكتور عبدالكريم احمد</h2>
+      <span class="team-info-text">تخصص نسا وتوليد</span>
+     </div> <!--/team-info  -->
+  </div> <!--/team-item  -->
+  <div class="team-item">
+    <div class="team-img">
+    <img src="images/دكتور 22.jpg" alt="boy" width="180px" height="200px">
+    <div class="team-ovarlay">
+     <a href="#"><i class="fab fa-facebook-square"></i></a>
+     <a href="#"><i class="fab fa-twitter-square"></i></a>
+     <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div> <!--/team-ovarlay  -->
+      </div> <!--/team-img  -->
+    <div class="team-info">
+    <h2 class="team-info-title1">دكتور شادي البرداني</h2>
+    <span class="team-info-text">تخصص اطفال</span>
+   </div> <!--/team-info  -->
+</div> <!--/team-item  -->
+<div class="team-item">
+  <div class="team-img">
+  <img src="images/دكتور 33.png" alt="boy" width="180px" height="200px">
+  <div class="team-ovarlay">
+   <a href="#"><i class="fab fa-facebook-square"></i></a>
+   <a href="#"><i class="fab fa-twituluter-square"></i></a>
+   <a href="#"><i class="fab fa-linkedin"></i></a>
+  </div> <!--/team-ovarlay  -->
+    </div> <!--/team-img  -->
+  <div class="team-info">
+  <h2 class="team-info-title1">دكتور خالد احمد</h2>
+  <span class="team-info-text">تخصص رمض</span>
+ </div> <!--/team-info  -->
+</div> <!--/team-item  -->
+    </div> <!--/team-content  -->
+</div> <!--/container  -->
+<br> <br> <br> <br> <br> <br>
+<div class="ddd">
+<div class="our-mony"><h2>قسم الاداره</h2></div> 
+<div class="our-team1"></div>
+<div class="im-container"> 
+  <div class="im-div11">
+    <div class="im-div3"></div> <!-- /im-div3 -->
+    <div class="im-div4"><h4 class="div-h4">المدير العام</h4>
+      <p class="im-p">دكتور طارق عبدالمعز</p>
+  </div><!-- /im-div4 -->
+  <div class="im-div5"><span class="im-span">خريج كليه طب بشري جامعه عين شمس <br>وحاصل علي دكتوراه من جامعه هارفاد</span></div> <!-- /im-div5 -->
+  </div> <!-- /im-div11 -->
+  <div class="im-div2">
+    <div class="im-div6"></div> <!-- /im-div3 -->
+    <div class="im-div4"><h4 class="div-h4">المدير المالي</h4>
+      <p class="im-p">دكتور عزت سلامه</p>
+  </div><!-- /im-div4 -->
+  <div class="im-div5"><span class="im-span">وزير التعليم العالي والبحث العلمي الاسبق,<br>مستشار الجامعه الامريكيه </span></div> <!-- /im-div5 -->
+  </div> <!-- /im-div2 -->
+  <div class="im-div2">
+    <div class="im-div7"></div> <!-- /im-div7 -->
+    <div class="im-div8"><h4 class="div-h4">الامين العام</h4>
+      <p class="im-p">دكتور لطفي حسن </p>
+  </div><!-- /im-div8 -->
+  <div class="im-div5"><span class="im-span">رئيس جمعيه اصدقاء المبادره القوميه ضد السرطان <br>رئيس مجلس اداره شركه كابسي</span></div> <!-- /im-div9 -->
+  </div> <!-- /im-div2-->
+</div> <!-- /im-container -->
+</div> <!-- /im-div1 -->
+</div>
+<!-- ////////////////////////////////////////////////////////////////////////////// -->
+<div class="ccc">
+<div class="work">
+  <div class="work-contanire1">
+     <div class="work-conteant-title">طقم التمريض المتميز
+     <div class="work-conteant-line"></div> <!-- /work-conteant-line -->
+  </div> <!-- /work-conteant-title -->
+    <div class="work-content-1">
+       <div class="work-item-1">
+         <div class="work-image-1">
+           <img class="work-img-man" src="images/ممرضه 5.jpg" alt="man" width="180px" height="180px">
+             <div class="work-overlay">
+              <span class="category">ندا احمد</span><br>
+              <h3 class="lorem">العمر 22 سنه</h3>
+              <div class="div-icons">
+            <a href="#"><i class="fab fa-facebook-square sha"></i></a>
+              </div> <!-- /div-icons -->
+              <div class="div-icons">
+               <a href="#"><i class="fab fa-twitter-square shah"></i></a>
+                 </div> <!-- /div-icons -->
+           </div> <!-- /work-overlay -->
+         </div> <!-- /work-image-1 -->
+       </div> <!-- /work-item-1 -->
+       <div class="work-item-1 am">
+         <div class="work-image-1">
+             <img class="work-img-man" src="images/ممرضه 4.jpg" alt="man" width="180px" height="180px">
+               <div class="work-overlay">
+                <span class="category">داليا صلاح</span><br>
+                <h3 class="lorem">العمر 29 سنه </h3>
+                <div class="div-icons">
+                 <a href="#"><i class="fab fa-facebook-square sha"></i></a>
+                   </div> <!-- /div-icons -->
+                   <div class="div-icons">
+                     <a href="#"><i class="fab fa-twitter-square shah"></i></a>
+                      </div> <!-- /div-icons -->
+             </div> <!-- /work-overlay -->
+           </div> <!-- /work-image-1 -->
+         </div> <!-- /work-item-1 -->
+         <div class="work-item-1">
+             <div class="work-image-1">
+               <img class="work-img-man" src="images/ممرضه 3.jpg" alt="man" width="180px" height="180px">
+                 <div class="work-overlay">
+                  <span class="category">امنيه محمد</span><br>
+                  <h3 class="lorem">العمر 25 سنه</h3>
+                  <div class="div-icons">
+                   <a href="#"><i class="fab fa-facebook-square sha"></i></a>
+                     </div> <!-- /div-icons -->
+                     <div class="div-icons">
+                       <a href="#"><i class="fab fa-twitter-square shah"></i></a>
+                        </div> <!-- /div-icons -->
+               </div> <!-- /work-overlay -->
+             </div> <!-- /work-image-1 -->
+           </div> <!-- /work-item-1 -->
+           <div class="work-item-1">
+             <div class="work-image-1">
+               <img class="work-img-man" src="images/ممرضه 2.jpg" alt="man" width="180px" height="180px">
+                 <div class="work-overlay">
+                  <span class="category">مي عبدالرحمن</span><br>
+                  <h3 class="lorem">العمر 30 سنه</h3>
+                  <div class="div-icons">
+                   <a href="#"><i class="fab fa-facebook-square sha"></i></a>
+                     </div> <!-- /div-icons -->
+                     <div class="div-icons">
+                       <a href="#"><i class="fab fa-twitter-square shah"></i></a>
+                        </div> <!-- /div-icons -->
+               </div> <!-- /work-overlay -->
+             </div> <!-- /work-image-1 -->
+           </div> <!-- /work-item-1 -->
+           <div class="work-item-1 am">
+             <div class="work-image-1">
+               <img class="work-img-man" src="images/ممرضه 1.jpg" alt="man" width="180px" height="180px">
+                 <div class="work-overlay">
+                  <span class="category">ساره عبدالله </span><br>
+                  <h3 class="lorem">العمر 24 سنه </h3>
+                  <div class="div-icons">
+                   <a href="#"><i class="fab fa-facebook-square sha"></i></a>
+                     </div> <!-- /div-icons -->
+                     <div class="div-icons">
+                       <a href="#"><i class="fab fa-twitter-square shah"></i></a>
+                        </div> <!-- /div-icons -->
+               </div> <!-- /work-overlay -->
+             </div> <!-- /work-image-1 -->
+           </div> <!-- /work-item-1 -->
+           <div class="work-item-1">
+             <div class="work-image-1">
+               <img class="work-img-man" src="images/ممرضه.jpg" alt="man" width="180px" height="180px">
+                 <div class="work-overlay">
+                  <span class="category">هاجر منتصر </span><br>
+                  <h3 class="lorem">العمر 28 سنه</h3>
+                  <div class="div-icons">
+                   <a href="#"><i class="fab fa-facebook-square sha"></i></a>
+                     </div> <!-- /div-icons -->
+                     <div class="div-icons">
+                      <a href="#"><i class="fab fa-twitter-square shah"></i></a>
+                        </div> <!-- /div-icons -->
+               </div> <!-- /work-overlay -->
+             </div> <!-- /work-image-1 -->
+           </div> <!-- /work-item-1 -->
+     </div> <!-- /work-content-1 -->
+  </div> <!-- /work-contanire1-->
+ </div> <!-- /work -->
+</div>
+ <!-- /////////////////////////////////////////////////////////////////////////////////////////////////// -->
+ <div class="how">
+ <div class="how-img"><img src="images/الجوى التخصصى.jpg" width="200" height="100"></div> <!-- /how-img --><br><br>
+ <div class="how-div1">
+   <div class="how-div2"><a href="#"><i class="fab fa-facebook-square hab"></i></a></div> 
+   <div class="how-div2"><a href="#"><i class="fab fa-twitter-square hab"></i></a></div>
+   <div class="how-div2"><a href="#"><i class="fab fa-linkedin hab"></i></a></div>
+   <div class="how-div2"><a href="#"><i class="fab fa-youtube hab"></i></a></div>
+   <div class="how-div2"><a href="#"><i class="fab fa-instagram hab"></i></a></div>
+   <div class="how-div2"><a href="#"><i class="fab fa-google-plus-g hab"></i></a></div>
+ <!-- </div> /how-div1 -->
+  <!-- <p class="how-p">hospital</p>  -->
+<!-- </div> <!-/how    -->
+ <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" ></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" ></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" ></script> 
+ </body>
+</html>
